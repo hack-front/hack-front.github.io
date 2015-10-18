@@ -1575,24 +1575,23 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 0px;
   padding-left: 15px;
   padding-right: 15px;
 }
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 100%;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 100%;
   }
 }
 .container-fluid {
@@ -3446,6 +3445,7 @@ tbody.collapse.in {
 .dropdown-menu.pull-right {
   right: 0;
   left: auto;
+  /*margin: 0 auto;*/
 }
 .dropdown-menu .divider {
   height: 1px;
@@ -3878,8 +3878,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav > li > a {
   position: relative;
-  display: block;
-  padding: 10px 15px;
+  display: inline-block;
+  padding: 10px 8px;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -4077,7 +4077,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-collapse {
   overflow-x: visible;
-  padding-right: 15px;
+  padding-right: 0px;
   padding-left: 15px;
   border-top: 1px solid transparent;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
@@ -4190,8 +4190,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   float: right;
   margin-right: 15px;
   padding: 9px 10px;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
@@ -8559,7 +8559,6 @@ blockquote p {
     display: none;
   }
   .navbar a.navbar-brand {
-    width: 280px;
     margin: 0px 0 10px 15px;
   }
   .navbar a.navbar-brand:link,
