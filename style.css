@@ -7212,11 +7212,13 @@ section.clients_section .clients_list a {
   transition: all 700ms linear;
 }
 section.clients_section .clients_list a:hover {
-  transform: rotateY(360deg);
-  -ms-transform: rotateY(360deg);
+  transform: rotateX(360deg);
+  -ms-transform: rotateX(360deg);
   /* IE 9 */
-  -webkit-transform: rotateY(360deg);
+  -webkit-transform: rotateX(360deg);
   /* Opera, Chrome, and Safari */
+
+  /* IE 9 */
 }
 /* =General Page elements
 -------------------------------------------------------------- */
