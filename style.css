@@ -8819,6 +8819,7 @@ blockquote p {
   }
 }
 
+/*Begin custom css*/
 .noselect {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -8830,4 +8831,14 @@ blockquote p {
 
 img{
   pointer-events: none;
+}
+
+#apply{
+  margin: 0 4%;
+}
+
+#ApplyButton {
+
+  color: blue;
+  font-weight: bold;
 }
