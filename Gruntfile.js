@@ -18,7 +18,7 @@ module.exports = function(grunt) {
         },
         purifycss: {
             target: {
-                src: ['*.html'],
+                src: ['*.html'], //may need to add additional files
                 css: ['dist/style.min.css'],
                 dest: 'dist/purestyle.css'
             }
