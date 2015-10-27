@@ -22,9 +22,20 @@ module.exports = function(grunt) {
                 css: ['dist/style.min.css'],
                 dest: 'dist/purestyle.css'
             }
+        },
+        watch: {
+            js: {
+                files: ["**/*.js"],
+                tasks: "jshint"
+            }
+        },
+        jshint: {
+        	src: ["Gruntfile.js", "scripts/**/*.js"]
         }
     });
 
-    grunt.registerTask('default', ['concat', 'cssmin', 'purifycss']);
+    grunt.registerTask('default', ['concat', 'cssmin', 'purifycss', 'watch', 'jshint']);
 
 };
+
+console.log("changed the gruntfile.js");
