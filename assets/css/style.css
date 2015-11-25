@@ -8842,3 +8842,10 @@ img{
   color: blue;
   font-weight: bold;
 }
+
+.faq .qa {
+
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 30px;
+}{
+}
