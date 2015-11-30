@@ -1,0 +1,22 @@
+.img-responsive {
+    width: 100%;
+}
+.event-date, .event-time{
+    font-size: 18px;
+}
+.row{
+    margin-top: 50px;
+}
+.readmore{
+
+}
+/*.presenter{*/
+    /*font-style: italic*/
+/*}*/
+.presenter-name{
+    font-style:normal;
+    font-size: 16px;
+}
+.presenter-title{
+    font-style: italic;
+}
