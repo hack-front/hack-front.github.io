@@ -1,0 +1,59 @@
+
+/*Meetup Intro*/
+.meetup_intro{
+    text-align: center;
+}
+.meetup_intro h3{
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 55px;
+    text-align: center;
+}
+.meetup_intro h4{
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 30px;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+.meetup_intro p, .meetup_intro li{
+    font-size: 16px;
+    text-align: left;
+}
+.btn-primary{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/*Event Summaries*/
+.events_section .row{
+    margin-top: 50px;
+}
+.img-responsive {
+    width: 100%;
+}
+.event-date, .event-location>span.location-name{
+    font-size: 18px;
+}
+.event-location{
+    font-size: 16px;
+}
+.readmore{
+
+}
+.presenter-name{
+    font-style:normal;
+    font-size: 16px;
+}
+.presenter-title{
+    font-style: italic;
+}
+
+/*Call to Action*/
+section.call_to_action{
+    margin: 80px 0 -40px 0;
+    background-color: #d8e8ff;
+}
