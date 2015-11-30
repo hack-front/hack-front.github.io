@@ -8867,10 +8867,23 @@ img{
 }
 
 .timeline .timeline-body .row [class*="col-"] {
-  height: 200px;
+  height: 270px;
 }
 
 .timeline .row .timeline-col:last-of-type{
+}
+
+.timeline-img{
+  text-align: center;
+}
+
+.timeline-img img{
+  height: 250px;
+  width: 250px;
+}
+
+.timeline-subtitle{
+  margin-top: 10px;
 }
 
 .timeline-badge{
@@ -8887,7 +8900,7 @@ img{
   width: 10px;
   background-color: #369CE5;
   position: relative;
-  top: 5px;
+  top: 20px;
   right: 6px;
 }
 
