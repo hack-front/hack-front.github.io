@@ -7,8 +7,6 @@
     <title>HackFront - Apply</title>
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="../assets/css/animate.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../assets/js/woothemes-FlexSlider-06b12f8/flexslider.css" type="text/css" media="screen">
     <link href="../assets/css/style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="../assets/js/lib/codemirror.css">
     <link rel="stylesheet" href="../assets/css/custom.css">
@@ -27,7 +25,6 @@
             <div class="navbar navbar-default noselect" role="navigation">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="../index.html">
-                        <!-- <img src="images/restart_logo.png" alt="optional logo" height="90" width="90"> -->
                         <img src="../assets/images/hackfront_logo.png" alt="logo here" height="90" width="90" alt="">
                         <span class="logo">
                             <span class="logo_title">{Hack}<strong>Front</strong></span>
@@ -94,17 +91,6 @@
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
-            <!-- <ol id="instructions">
-                <li class="inst">Declare a variable <code>firstName</code> and assign it to a string which is your first name.</li>
-                <li class="inst">Declare a variable <code>lastName</code> and assign it to a string which is your last name.</li>
-                <li class="inst">Using <b>string concatenation</b>, make a variable <code>fullName</code> equal to your first and last names separated by a space.</li>
-                <li class="inst">Make a variable <code>linkedIn</code>, a string which is a link to your LinkedIn profile.</li>
-                <li class="inst">Make a variable <code>phone</code> equal to your phone number.</li>
-                <li class="inst">Make a variable <code>city</code> equal to your city of residence.</li>
-                <li class="inst">Make a variable <code>info</code> which is an array containing your <code>fullName</code>, <code>linkedIn</code>, <code>phone</code>, and <code>city</code> variables, in that order.</li>
-                <li class="inst">Make a variable <code>education</code> which is an array containing the name of your college/university, field of study, an integer which is your year of (anticipated) graduation. Make sure it's in that order.</li>
-                <li class="inst">Define a function <code>createApp</code> which takes your <code>info</code> and <code>education</code> as arguments in that order. The function should then return an <b>object</b> (you'll need to create it). This object should have two properties. The property names must be the same as your variable names. Set the values of these properties to the corresponding arguments.</li>
-            </ol> -->
         </section>
         <footer>
             <section class="copyright">
@@ -121,15 +107,8 @@
     window.jQuery || document.write('<script src="../assets/js/jquery-1.9.0.min.js"><\/script>')
     </script>
     <script src="../assets/twitter-bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="../assets/js/woothemes-FlexSlider-06b12f8/jquery.flexslider-min.js"></script>
-    <script src="../assets/js/isotope/jquery.isotope.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="../assets/js/jquery.ui.totop.js"></script>
-    <script type="text/javascript" src="../assets/js/easing.js"></script>
-    <script type="text/javascript" src="../assets/js/wow.min.js"></script>
-    <script type="text/javascript" src="../assets/js/snap.svg-min.js"></script>
-    <script type="text/javascript" src="../assets/js/restart_theme.js"></script>
-    <script type="text/javascript" src="../assets/js/lib/codemirror.js"></script>
-    <script src="../assets/js/mode/javascript/javascript.js"></script>
+    <script type="text/javascript" src="../assets/js/codemirror/codemirror.js"></script>
+    <script src="../assets/js/codemirror/mode/javascript/javascript.js"></script>
     <script>
     var editor = CodeMirror(document.getElementById("editor"), {
         lineNumbers: true,
