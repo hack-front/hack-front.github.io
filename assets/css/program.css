@@ -1,0 +1,11 @@
+.row.row-eq-height {
+    padding: 50px 0;
+}
+section.call_to_action h4{
+    margin: 20px 0 10px 0;
+    font-weight: bold;
+}
+.timeline-subtitle {
+    margin: 0 0 20px 0;
+    font-size: 18px;
+}
