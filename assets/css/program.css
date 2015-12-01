@@ -1,5 +1,9 @@
-.row.row-eq-height {
-    padding: 50px 0;
+/*.row.row-eq-height {*/
+    /*padding: 50px 0;*/
+/*}*/
+.timeline .row>div[class^='col-']{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 section.call_to_action h4{
     margin: 20px 0 10px 0;
