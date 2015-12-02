@@ -1,9 +1,12 @@
-/*.row.row-eq-height {*/
-    /*padding: 50px 0;*/
-/*}*/
-.timeline .row>div[class^='col-']{
-    padding-top: 50px;
-    padding-bottom: 50px;
+.timeline {
+    padding-left: 30px;
+    margin-top: 50px;
+}
+.timeline .timeline-body .row [class*="col-"] {
+    height: 350px;
+}
+.timeline-col {
+    padding: 30px;
 }
 section.call_to_action h4{
     margin: 20px 0 10px 0;
@@ -12,4 +15,27 @@ section.call_to_action h4{
 .timeline-subtitle {
     margin: 0 0 20px 0;
     font-size: 18px;
+}
+@media (max-width: 767px){
+    .timeline-col {
+        padding: 0 30px;
+    }
+    .timeline .timeline-body .row [class*="col-"] {
+        height: 250px;
+        text-align: center;
+    }
+    .timeline .row {
+        width: 100%;
+        border-left: 2px solid #e3e3e3;
+    }
+    .timeline-img img{
+        position: relative;
+        right: 1em;
+    }
+}
+@media (max-width: 480px){
+    .timeline .timeline-body .row .class-description {
+        height: 300px;
+        text-align: center;
+    }
 }
