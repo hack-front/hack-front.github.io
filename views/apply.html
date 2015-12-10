@@ -69,68 +69,76 @@
             <br>
 
             <!--START FORM HERE-->
-            <form id="contactform" name="contactform" class="col-sm-6 col-md-offset-1 scrollimation fade-left d3" action="contactform.php" role="form" method="post" novalidate>
+            <!--<form id="contactform" name="contactform" class="col-sm-6 col-md-offset-1 " action="contactform.php" role="form" method="post" novalidate>-->
 
-                <div class="form-group" ng-class="{'has-error': contactform.name.$invalid && submitted}">
-                    <label class="control-label" for="name">Name</label>
-                    <div class="controls">
-                        <input id="name" name="name" ng-model="input.name" placeholder="Your name" class="form-control requiredField" type="text" data-new-placeholder="Your name" type="text" data-error-empty="Please enter your name">
-                        <i class="fa fa-user"></i>
-                    </div>
-                </div><!-- End name input -->
+                <!--<div class="form-group">-->
+                    <!--<label class="control-label" for="name">Name</label>-->
+                    <!--<div class="controls">-->
+                        <!--<input id="name" name="name" ng-model="input.name" placeholder="Your name" class="form-control requiredField" type="text" data-new-placeholder="Your name" type="text" data-error-empty="Please enter your name">-->
+                        <!--<i class="fa fa-user"></i>-->
+                    <!--</div>-->
+                <!--</div>&lt;!&ndash; End name input &ndash;&gt;-->
 
-                <div class="form-group" ng-class="{'has-error': contactform.$invalid && submitted}">
-                    <label class="control-label" for="email">Email</label>
-                    <div class=" controls">
-                        <input id="email" name="email" ng-model="input.email" placeholder="Your email" class="form-control requiredField" type="email"  data-new-placeholder="Your email" data-error-empty="Please enter your email" data-error-invalid="Invalid email address">
-                        <i class="fa fa-envelope"></i>
-                    </div>
-                </div><!-- End email input -->
+                <!--<div class="form-group" ng-class="{'has-error': contactform.$invalid && submitted}">-->
+                    <!--<label class="control-label" for="email">Email</label>-->
+                    <!--<div class=" controls">-->
+                        <!--<input id="email" name="email" ng-model="input.email" placeholder="Your email" class="form-control requiredField" type="email"  data-new-placeholder="Your email" data-error-empty="Please enter your email" data-error-invalid="Invalid email address">-->
+                        <!--<i class="fa fa-envelope"></i>-->
+                    <!--</div>-->
+                <!--</div>&lt;!&ndash; End email input &ndash;&gt;-->
 
-                <div class="form-group">
-                    <label class="control-label" for="phone">Phone</label>
-                    <div class=" controls">
-                        <input id="phone" name="phone" ng-model="input.phone" placeholder="Your phone number (optional)" class="form-control" type="tel" data-new-placeholder="Your phone number" data-error-empty="Please enter your phone number" data-error-invalid="Invalid phone number">
-                        <i class="fa fa-envelope"></i>
-                    </div>
-                </div><!-- End email input -->
+                <!--<div class="form-group">-->
+                    <!--<label class="control-label" for="phone">Phone</label>-->
+                    <!--<div class=" controls">-->
+                        <!--<input id="phone" name="phone" ng-model="input.phone" placeholder="Your phone number (optional)" class="form-control" type="tel" data-new-placeholder="Your phone number" data-error-empty="Please enter your phone number" data-error-invalid="Invalid phone number">-->
+                        <!--<i class="fa fa-envelope"></i>-->
+                    <!--</div>-->
+                <!--</div>&lt;!&ndash; End email input &ndash;&gt;-->
 
-                <div class="form-group" ng-class="{'has-error': contactform.email.$invalid && submitted}">
-                    <label class="control-label" for="message">Message</label>
-                    <div class="controls">
-                        <textarea id="message" name="message" ng-model="input.message" placeholder="Your message" class="form-control requiredField" data-new-placeholder="Your message" rows="6" data-error-empty="Please enter your message" data-new-placeholder="Your message" rows="6" data-error-empty="Please enter your message"></textarea>
-                        <i class="fa fa-comment"></i>
-                    </div>
-                </div><!-- End textarea -->
+                <!--<div class="form-group" ng-class="{'has-error': contactform.email.$invalid && submitted}">-->
+                    <!--<label class="control-label" for="message">Message</label>-->
+                    <!--<div class="controls">-->
+                        <!--<textarea id="message" name="message" ng-model="input.message" placeholder="Your message" class="form-control requiredField" data-new-placeholder="Your message" rows="6" data-error-empty="Please enter your message" data-new-placeholder="Your message" rows="6" data-error-empty="Please enter your message"></textarea>-->
+                        <!--<i class="fa fa-comment"></i>-->
+                    <!--</div>-->
+                <!--</div>&lt;!&ndash; End textarea &ndash;&gt;-->
 
-                <p><button name="submit" type="submit" class="btn btn-color2 btn-block" ng-disabled="submitButtonDisabled" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent"><i class="fa fa-paper-plane"></i>Send Message</button></p>
-                <input type="hidden" name="submitted" id="submitted" value="true" />
+                <!--<p><button name="submit" type="submit" class="btn btn-color2 btn-block" ng-disabled="submitButtonDisabled" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent"><i class="fa fa-paper-plane"></i>Send Message</button></p>-->
+                <!--<input type="hidden" name="submitted" id="submitted" value="true" />-->
 
-            </form><!-- End contact-form -->
+            <!--</form>&lt;!&ndash; End contact-form &ndash;&gt;-->
 
 
 
-            <form>
+            <form action="contactform.php" role="form" method="post">
                 <div class="form-name">
                     <div class="form-group">
-                        <label for="last-name">First Name</label>
-                        <input type="text" class="form-control" id="first-name" placeholder="First Name">
+                        <label for="firstname">First Name</label>
+                        <input id="firstname" name="firstname" placeholder="Your name" class="form-control requiredField" type="text" data-new-placeholder="Your name" type="text" data-error-empty="Please enter your name">
+                        <!--<input type="text" class="form-control" id="first-name" placeholder="First Name">-->
                     </div>
                     <div class="form-group">
-                        <label for="last-name">Last Name</label>
-                        <input type="text" class="form-control" id="last-name" placeholder="Last Name">
+                        <label for="lastname">Last Name</label>
+                        <input id="lastname" name="lastname" placeholder="Your name" class="form-control requiredField" type="text" data-new-placeholder="Your name" type="text" data-error-empty="Please enter your name">
+                        <!--<input type="text" class="form-control" id="last-name" placeholder="Last Name">-->
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder=" John@email.com">
+                    <input type="email" class="form-control" id="email" name="email" placeholder=" John@email.com">
                 </div>
-                <div class="form-group">
-                    <label for="github">Github</label>
-                    <input type="text" class="form-control" id="github" placeholder="GitHub">
-                </div>
-                <div id="editor">
-                </div>
+
+                <input id="phone" name="phone" placeholder="Your phone number (optional)" class="form-control" type="tel" data-new-placeholder="Your phone number" data-error-empty="Please enter your phone number" data-error-invalid="Invalid phone number">
+
+                <!--EDITOR FOR APPLICATION-->
+                <!--<div class="form-group">-->
+                    <!--<label for="github">Github</label>-->
+                    <!--<input type="text" class="form-control" id="github" placeholder="GitHub">-->
+                <!--</div>-->
+                <!--<div id="editor">-->
+                <!--</div>-->
+
+                <input type="hidden" name="submitted" id="submitted" value="true" />
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </section>
