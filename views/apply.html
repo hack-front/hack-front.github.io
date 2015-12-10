@@ -141,7 +141,7 @@
                 <!--</div>-->
 
                 <input type="hidden" name="submitted" id="submitted" value="true" />
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent">Submit</button>
             </form>
         </section>
         <footer>
@@ -169,6 +169,7 @@
     <script type="text/javascript" src="../assets/js/collapser.js"></script>
     <script type="text/javascript" src="../assets/js/codemirror/codemirror.js"></script>
     <script src="../assets/js/codemirror/mode/javascript/javascript.js"></script>
+    <script type="text/javascript" src="../assets/js/contact.js"></script>
     <script>
     var editor = CodeMirror(document.getElementById("editor"), {
         lineNumbers: true,
