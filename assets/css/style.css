@@ -8893,15 +8893,17 @@ blockquote p {
   width: auto;
 }
 .portfolio_strict .portfolio_item .portfolio_description p {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   font-size: 14px;
-  color: #888888;
-  /* text-transform: uppercase; */
+  color: #888;
   letter-spacing: 1px;
+  text-transform: none;
 }
 .portfolio_strict .portfolio_item {
   height:auto;
   text-transform: none;
 }
+.portfolio_strict .portfolio_item .portfolio_description h3 {
+  margin: 10px 0 20px 0;
 }
