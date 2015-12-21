@@ -10552,11 +10552,11 @@ section .container .featured-title {
 section .container .featured-title h1 {
     display: inline-block;
     margin: 0;
-    padding: 16px 30px;
-    line-height: 1em;
+    /*padding: 16px 30px;*/
+    /*line-height: 1em;*/
     color: #ffffff;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
-    font-size: 50px;
+    /*font-size: 50px;*/
     font-weight: 300;
     width: auto;
 }
