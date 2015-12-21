@@ -10615,3 +10615,7 @@ section .container .featured-title .lead {
 #home-header {
     background-image: url(../images/hackfront.jpg)
 }
+
+#events-header{
+    background-image: url(../images/events/events-cover.jpeg);
+}
