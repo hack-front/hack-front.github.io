@@ -10506,6 +10506,11 @@ blockquote p {
     width: auto;
 }
 
+.codelogo-sm {
+    min-height: 100px;
+    width: auto;
+}
+
 .portfolio_strict .portfolio_item .portfolio_description p {
     margin: 0px;
     padding: 0px;
@@ -10536,10 +10541,10 @@ section .container .featured-title {
     opacity: 10;
     filter: alpha(opacity=1000);
     margin: 0 25% 0 0;
-    padding: 16px 30px;
+    padding: 16px 10px;
     text-align: left;
     left: 0;
-    right: 0;
+    /*right: 0;*/
     background: #000000;
     background: rgba(0, 0, 0, 0.6);
 }
